@@ -1,4 +1,4 @@
-## Formula Parser in React (Forked)
+## Formula Parser in React
 
 ### The Spec
 
