@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es2015",
     "module": "esnext",
-    "rootDir": "src",
+    "outDir": "./utils",
+    "rootDir": "./src",
     "moduleResolution": "node",
+    "declaration": true,
+    "declarationDir": "./utils/types",
     "strict": true,
-    "lib": ["esnext", "dom"],
+    "lib": ["es2020", "dom"],
     "types": ["jest"],
     "esModuleInterop": true
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules/**"],
+  "exclude": ["node_modules/**"]
 }
